@@ -80,7 +80,7 @@ const filterData= data.filter((item)=>{
               return (<div key ={index}>
                  <h2>Title:{item.title}</h2>
                  <p>Description : {item.description}</p>
-                 <p>Status:{isActive?'Active':'Non-Active'}</p>
+                 <p>Status:{item.isActive?'Active':'Non-Active'}</p>
                </div>)
             })}
         </div>
